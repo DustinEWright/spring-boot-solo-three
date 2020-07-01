@@ -1,4 +1,10 @@
 package com.example.springbootsolothree.bootstrap;
 
-public class BootStrapData {
+import org.springframework.boot.CommandLineRunner;
+
+public class BootStrapData implements CommandLineRunner {
+    @Override
+    public void run(String... args) throws Exception {
+        System.out.println("Hello World.");
+    }
 }

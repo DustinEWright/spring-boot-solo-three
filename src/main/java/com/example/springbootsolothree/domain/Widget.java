@@ -2,6 +2,7 @@ package com.example.springbootsolothree.domain;
 
 import jdk.jfr.Enabled;
 
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -9,7 +10,7 @@ import javax.persistence.Id;
 /**
  * Created by DW 07/01/20
  */
-@Enabled
+@Entity
 public class Widget {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
