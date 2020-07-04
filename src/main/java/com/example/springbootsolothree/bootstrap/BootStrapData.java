@@ -4,6 +4,9 @@ import com.example.springbootsolothree.repositories.WidgetRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
+/**
+ * Created by DW 07/01/20
+ */
 @Component
 public class BootStrapData implements CommandLineRunner {
 
