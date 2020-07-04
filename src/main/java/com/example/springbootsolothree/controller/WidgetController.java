@@ -29,7 +29,7 @@ public class WidgetController {
 
         model.addAttribute("widget", widgetRepository.findAll());
 
-        return "widget";
+        return "widget/list";
     }
 
 }
