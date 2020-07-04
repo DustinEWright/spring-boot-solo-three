@@ -5,6 +5,11 @@
     <title>Spring Boot Solo</title>
 </head>
 <body>
+<form method="POST" action="/widget">
+    <input type="text" name="name" value="demo">
+    <input type="text" name="color">
+    <input type="submit"/>
+</form>
 <h1>Widget List</h1>
 <table>
     <tr>
@@ -12,7 +17,7 @@
         <th>Name</th>
         <th>Color</th>
     </tr>
-    <tr th:each="widget: ${widget}">
+    <tr th:each="widget: ${widgets}">
         <th th:text="${widget.id}">123</th>
         <th th:text="${widget.name}">Widget Name</th>
         <th th:text="${widget.color}">Widget Color</th>
