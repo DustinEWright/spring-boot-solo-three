@@ -22,7 +22,7 @@ public class BootStrapData implements CommandLineRunner {
         Widget fred = new Widget("Fred", "orange");
         Widget dave = new Widget();
         dave.setName("Dave");
-        dave.setColor("White");
+        dave.setColor("white");
 
         widgetRepository.save(fred);
         widgetRepository.save(dave);
