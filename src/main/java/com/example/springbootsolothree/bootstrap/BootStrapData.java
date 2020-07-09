@@ -7,6 +7,9 @@ import org.springframework.stereotype.Component;
 /**
  * Created by DW 07/01/20
  */
+
+// adding a comment to display git works from terminal via SSH
+
 @Component
 public class BootStrapData implements CommandLineRunner {
 
